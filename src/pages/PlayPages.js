@@ -54,7 +54,9 @@ const PlayPages = ({Count,Score,setCount,setScore,setPlay}) => {
             const fact = data2.data[0].attributes.body;
             await setFact(fact);
             await setPicture(picture);
-            setLoading(false)
+            setTimeout(() => {
+                setLoading(false)
+            }, 1000);
         } catch (e) {
             console.log("error getting API")
         }

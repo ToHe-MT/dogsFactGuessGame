@@ -2,8 +2,8 @@ import "../../public/github-mark-white.png"
 const End = ({Score,restart}) =>{
     return(
         <>
-            <div className='text-white text-lg'>
-                <div className="grid">
+            <div className='text-white text-xl'>
+                <div className=" mt-20 grid">
                     <h1 className="text-center my-2 mt-8"> Congratulations, you got {Score} out of 5 questions </h1>
                     <p className="text-center"> You Score {Score * 20} out of 100 points </p>
                     <button className=' my-4 width-100 mx-auto btn btn--primary' onClick={restart}>Restart</button>
@@ -21,12 +21,12 @@ const End = ({Score,restart}) =>{
                             <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/j/33/javascript.svg"/>
                     </ul>
                 </div>
-                <div className="flex flex-col justify-center items-center mx-20 my-10">
+                <div className="flex flex-col text-justify max-w-screen-md my-10 mx-auto p-10">
                     <h1 className="text-4xl font-bold  mb-4">
                         Hi, thanks for checking out my project!
                     </h1>
                     <p className="text-lg mb-8">
-                        My name is Theo and I'm learning web development. The objective of creating this project was to practice using APIs and asynchronous JavaScript, and to explore some of the tools I've learned which I stated up.
+                        My name is Theo and I'm learning web development. The objective of creating this project was to practice using APIs and asynchronous JavaScript, and to explore some of the tools I've learned which I stated above.
                     </p>
                     <p className="text-lg mb-8">
                         This isn't a code-along project, so everything you see here was created by me. I chose to make it a single-page website to test my ability to use React's State feature.
