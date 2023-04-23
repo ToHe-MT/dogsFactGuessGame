@@ -11,14 +11,18 @@ const End = ({Score,restart}) =>{
                         <li>
                             <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/r/63/react.svg"/>
                         </li>
+                        <li>
                             <img className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg"/>
+                        </li>
                         <li>
                             <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/h/90/html-5.svg"/>
                         </li>
                         <li>
                             <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/c/85/css10.svg"/>
                         </li>
+                        <li>
                             <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/j/33/javascript.svg"/>
+                        </li>
                     </ul>
                 </div>
                 <div className="flex flex-col text-justify max-w-screen-md my-10 mx-auto p-10">
