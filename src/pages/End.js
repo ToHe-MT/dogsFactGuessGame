@@ -3,8 +3,8 @@ const End = ({Score,restart}) =>{
     return(
         <>
             <div className='text-white text-xl'>
-                <div className=" mt-20 grid">
-                    <h1 className="text-center my-2 mt-8"> Congratulations, you got {Score} out of 5 questions </h1>
+                <div className=" mt-20 grid mx-auto">
+                    <h1 className="text-center my-2 mt-8 mx-auto"> Congratulations, you got {Score} out of 5 questions </h1>
                     <p className="text-center"> You Score {Score * 20} out of 100 points </p>
                     <button className=' my-4 width-100 mx-auto btn btn--primary' onClick={restart}>Restart</button>
                     <ul className='flex justify-evenly min-width-640 mx-40'>
@@ -29,12 +29,12 @@ const End = ({Score,restart}) =>{
                         You might notice that all the answers are true, but that's not a bug - it's because the API I used only returns facts, not myths. I didn't spend a lot of time brainstorming ideas for this project, I know it might not be the best idea, but I'm always open to feedback and suggestions for improvement.
                     </p>
                     <div className="flex flex-row space-x-4 mb-8">
-                        <div className="bg-white">    
+                        <div>    
                         <a href="https://github.com/ToHe-MT/dogsGuessingGame" target="_blank" rel="noopener noreferrer">
                             <img
                             src="https://cdn.cdnlogo.com/logos/g/60/github-icon.svg"
                             alt="GitHub"
-                            className="w-8 h-8"
+                            className="w-8 h-8 bg-white"
                             />
                         </a>
                         </div>
