@@ -7,7 +7,7 @@ const End = ({Score,restart}) =>{
                     <h1 className="text-center my-2 mt-8"> Congratulations, you got {Score} out of 5 questions </h1>
                     <p className="text-center"> You Score {Score * 20} out of 100 points </p>
                     <button className=' my-4 width-100 mx-auto btn btn--primary' onClick={restart}>Restart</button>
-                    <ul className='flex justify-evenly mx-40'>
+                    <ul className='flex justify-evenly min-width-640 mx-40'>
                         <li>
                             <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/r/63/react.svg"/>
                         </li>
