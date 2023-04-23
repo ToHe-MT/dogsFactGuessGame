@@ -8,21 +8,11 @@ const End = ({Score,restart}) =>{
                     <p className="text-center"> You Score {Score * 20} out of 100 points </p>
                     <button className=' my-4 width-100 mx-auto btn btn--primary' onClick={restart}>Restart</button>
                     <ul className='flex justify-evenly min-width-640 mx-40'>
-                        <li>
-                            <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/r/63/react.svg"/>
-                        </li>
-                        <li>
-                            <img className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg"/>
-                        </li>
-                        <li>
-                            <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/h/90/html-5.svg"/>
-                        </li>
-                        <li>
-                            <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/c/85/css10.svg"/>
-                        </li>
-                        <li>
-                            <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/j/33/javascript.svg"/>
-                        </li>
+                        <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/r/63/react.svg"/>
+                        <img className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/t/58/tailwindcss.svg"/>
+                        <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/h/90/html-5.svg"/>
+                        <img  className='max-h-16 p-3'  src="https://cdn.cdnlogo.com/logos/c/85/css10.svg"/>
+                        <img  className='max-h-16 p-3' src="https://cdn.cdnlogo.com/logos/j/33/javascript.svg"/>                        
                     </ul>
                 </div>
                 <div className="flex flex-col text-justify max-w-screen-md my-10 mx-auto p-10">
